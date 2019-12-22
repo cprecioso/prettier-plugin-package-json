@@ -1,0 +1,44 @@
+{
+  "name": "@cprecioso/prettier-plugin-package-json",
+  "description": "Prettier plugin for consistently ordering package.json",
+  "license": "MIT",
+  "author": "Carlos Precioso <kalprestito@gmail.com>",
+  "homepage": "https://github.com/cprecioso/prettier-plugin-package-json#readme",
+  "repository": "git+https://github.com/cprecioso/prettier-plugin-package-json.git",
+  "bugs": {
+    "url": "https://github.com/cprecioso/prettier-plugin-package-json/issues"
+  },
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "prepublishOnly": "npm run build",
+    "preversion": "npm run build"
+  },
+  "dependencies": {
+    "prettier-package-json": "^2.1.3"
+  },
+  "peerDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {
+    "@cprecioso/tsconfig": "^0.0.4",
+    "@types/prettier": "^1.19.0",
+    "@types/prettier-package-json": "^2.1.0",
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "dependencies",
+    "package",
+    "package-json",
+    "package.json",
+    "prettier",
+    "prettier-plugin",
+    "scripts",
+    "sort",
+    "sort-package-json"
+  ]
+}

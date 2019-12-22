@@ -1,0 +1,11 @@
+{
+  "overrides": [
+    {
+      "files": "package.json",
+      "options": {
+        "parser": "json-stringify",
+        "plugins": ["."]
+      }
+    }
+  ]
+}
