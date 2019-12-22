@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/cprecioso/prettier-plugin-package-json/issues"
   },
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
